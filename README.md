@@ -36,7 +36,7 @@ CP/
 ./scripts/novo.sh codeforces 1850A-to-my-critics
 ./scripts/novo.sh cp31/800 1850A-to-my-critics   # treino CP-31
 
-# compilar e testar
+# compilar e testar (ou no VS Code: botão ▷ / Ctrl+Alt+N, ou Ctrl+Shift+B com input.txt)
 ./scripts/run.sh problemas/codeforces/1850A-to-my-critics.cpp entrada.txt
 ```
 

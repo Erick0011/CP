@@ -1,0 +1,10 @@
+{
+    // Botão ▷ (Code Runner): compila e roda o arquivo aberto no terminal
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.executorMap": {
+        "cpp": "g++ -std=c++17 -O2 -Wall -Wextra -Wshadow \"$fullFileName\" -o /tmp/cp_run && echo '--- rodando (digite a entrada; Ctrl+D para terminar) ---' && /tmp/cp_run"
+    },
+    "files.associations": { "*.cpp": "cpp" }
+}

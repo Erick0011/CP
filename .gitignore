@@ -9,6 +9,6 @@ bin/
 *.ans
 output.txt
 # editor / SO
-.vscode/
 .idea/
 .DS_Store
+input.txt
