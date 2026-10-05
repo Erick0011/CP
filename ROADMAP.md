@@ -3,6 +3,24 @@
 Marque `[x]` quando dominar o tópico (= resolveu pelo menos 5 problemas sem olhar a solução).
 Cada tópico concluído deve ter uma nota em `conceitos/`.
 
+**Objetivo final: ICPC.**
+
+## Como treinar (as três listas)
+| Lista | Papel | Uso |
+|---|---|---|
+| **CP-31** | base do treino diário | ~70% do tempo, no nível atual → `problemas/cp31/` |
+| **Rokba Park** (por tema, 800→2000) | reforçar pontos fracos | ~30% do tempo, tema da semana |
+| **YouKnowWho** (tópicos por faixa) | mapa do que estudar | consultar ao subir de faixa; essencial a partir de ~1600 |
+
+- Tentar cada problema 30–45 min antes da dica/editorial
+- Subir de nível no CP-31 com ~70–80% resolvidos sem ajuda
+- 1 contest por semana + upsolving → `contests/`
+
+## Etapas rumo ao ICPC
+1. **Individual (até ~1400–1600 no CF):** CP-31 + temas + contests. Fases 0–2 abaixo.
+2. **Amplitude (1600+):** cobrir os tópicos do YouKnowWho que o ICPC cobra e o CF Div. 2 quase não cobra — geometria, fluxo, strings, teoria dos números, DP avançada. Fases 3–4.
+3. **Time:** simulado semanal de 5h com provas antigas no Codeforces Gym, um computador, divisão de especialidades → `icpc/`
+
 ## Fase 0 — Fundamentos de C++ e plataforma
 - [ ] Entrada/saída rápida, `long long`, overflow
 - [ ] STL: `vector`, `pair`, `sort`, `map`, `set`, `priority_queue`, `deque`
@@ -45,7 +63,7 @@ Cada tópico concluído deve ter uma nota em `conceitos/`.
 - [ ] DP: bitmask, dígitos, intervalos, otimizações
 - [ ] SCC, pontes e articulações
 - [ ] Fluxo máximo / matching
-- [ ] Geometria básica
+- [ ] Geometria: produto vetorial, orientação, interseção de segmentos, convex hull, área de polígono
 - [ ] Teoria dos números: Euclides estendido, CRT
 
 ## Fase 5 — Especialista (2200+)

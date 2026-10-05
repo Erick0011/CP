@@ -16,12 +16,14 @@ CP/
 │   └── strings/        # KMP...
 ├── conceitos/          # notas teóricas por tópico (use _MODELO.md)
 ├── problemas/          # soluções separadas por plataforma
+│   ├── cp31/           # treino diário por nível: 800/, 900/, ..., 1900/
 │   ├── codeforces/
 │   ├── atcoder/
 │   ├── cses/
 │   ├── beecrowd/
 │   └── outros/
 ├── contests/           # registro de contests (resultado + upsolving)
+├── icpc/               # time, simulados de 5h e checklist da prova
 └── scripts/
     ├── novo.sh         # cria problema a partir do template
     └── run.sh          # compila com flags de debug e roda
@@ -32,6 +34,7 @@ CP/
 ```bash
 # criar um problema novo
 ./scripts/novo.sh codeforces 1850A-to-my-critics
+./scripts/novo.sh cp31/800 1850A-to-my-critics   # treino CP-31
 
 # compilar e testar
 ./scripts/run.sh problemas/codeforces/1850A-to-my-critics.cpp entrada.txt
