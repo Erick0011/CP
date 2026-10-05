@@ -1,0 +1,14 @@
+# binários e saídas de compilação
+*.out
+*.exe
+*.o
+a
+bin/
+# arquivos de teste locais
+*.in
+*.ans
+output.txt
+# editor / SO
+.vscode/
+.idea/
+.DS_Store
